@@ -1,6 +1,6 @@
 <div align="center">
 <h1>CircuitFormer </h1>
-<h3>Circuit as Set of Point</h3>
+<h3>Circuit as Set of Points</h3>
 
 Jialv Zou<sup>1,2</sup> , Xinggang Wang<sup>1 :email:</sup> , Jiahao Guo<sup>1</sup> , Wenyu Liu<sup>1</sup> , Qian Zhang<sup>2</sup> , Chang Huang<sup>2</sup>
  

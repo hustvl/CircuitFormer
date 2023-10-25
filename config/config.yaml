@@ -1,0 +1,41 @@
+data:
+  dataset: circuitnet
+  data_root: ${hydra:runtime.cwd}/dataset/CircuitNet/graph_features/instance_placement/
+  label_root: ${hydra:runtime.cwd}/dataset/CircuitNet/train_congestion/congestion/label/
+  # label_root: ${hydra:runtime.cwd}/dataset/CircuitNet/train_DRC/DRC/label/ # for DRC
+
+  num_workers: 16  # data loader workers
+  batch_size: 8  # batch size for training
+
+experiment:
+  project: circuitformer               # wandb project
+  save_dir: ${hydra:runtime.cwd}/exp/exp1            # log directory, will be created
+
+  checkpoint_interval: 1000
+  log_image_interval: 500
+  ckpt_path: ${hydra:runtime.cwd}/ckpts/circuitformer.ckpt
+
+model:
+  model_name: circuitformer
+  loss: mse
+  max_epochs: 100
+  warmup_epochs: 10
+  lr_scheduler: cosine
+  lr: 0.0001
+  warmup_lr: 0.000001
+  min_lr: 0.000001
+  weight_decay: 0
+  batch_size: ${data.batch_size}
+  loss_weight: 128
+  label_weight: 1
+
+
+
+trainer:
+  max_epochs: ${model.max_epochs}
+  log_every_n_steps: 1
+  accelerator: gpu
+  devices: [0]
+  precision: 16
+  check_val_every_n_epoch: 10
+  sync_batchnorm: True

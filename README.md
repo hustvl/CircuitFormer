@@ -2,7 +2,7 @@
 <h1>CircuitFormer </h1>
 <h3>Circuit as Set of Points</h3>
 
-Jialv Zou<sup>1,2</sup> , Xinggang Wang<sup>1 :email:</sup> , Jiahao Guo<sup>1</sup> , Wenyu Liu<sup>1</sup> , Qian Zhang<sup>2</sup> , Chang Huang<sup>2</sup>
+Jialv Zou<sup>1</sup> , Xinggang Wang<sup>1 :email:</sup> , Jiahao Guo<sup>1</sup> , Wenyu Liu<sup>1</sup> , Qian Zhang<sup>2</sup> , Chang Huang<sup>2</sup>
  
 <sup>1</sup> School of EIC, HUST, <sup>2</sup> Horizon Robotics
 

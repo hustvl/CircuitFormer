@@ -9,6 +9,7 @@ Jialv Zou<sup>1</sup> , Xinggang Wang<sup>1 :email:</sup> , Jiahao Guo<sup>1</su
 (<sup>:email:</sup>) corresponding author.
 
 **NeurIPS 2023**
+[ArXiv Preprint](https://arxiv.org/abs/2310.17418)
 
 </div>
 

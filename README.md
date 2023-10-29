@@ -83,5 +83,5 @@ Test circuitformer
 python test.py
 ```
 
-# Ackownledgment
+# Acknowledgment
 The dataset is provided by [CircuitNet](https://github.com/circuitnet/CircuitNet). Our code is developed based on [VoxSeT](https://github.com/skyhehe123/VoxSeT) and [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch)

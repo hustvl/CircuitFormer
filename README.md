@@ -76,7 +76,7 @@ Train circuitformer
 ```
 python train.py
 ```
-Please download our pretrain model [Here](https://pan.baidu.com/s/106j2W5VF2ehzaXpLhVoQpA?pwd=c16q) and put it in 'ckpts/'
+Please download our pretrain model [Baidu](https://pan.baidu.com/s/106j2W5VF2ehzaXpLhVoQpA?pwd=c16q) or [Google](https://drive.google.com/file/d/1IyYG2uQMvnZ6C4O0e0FFEfIHRlJXrV24/view?usp=sharing) and put it in 'ckpts/'
 
 Test circuitformer
 ```
@@ -85,3 +85,14 @@ python test.py
 
 # Acknowledgment
 The dataset is provided by [CircuitNet](https://github.com/circuitnet/CircuitNet). Our code is developed based on [VoxSeT](https://github.com/skyhehe123/VoxSeT) and [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch)
+
+# Citation
+If you find CircuitFormer is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+```bibtex
+@inproceedings{zou2023circuit,
+  title={Circuit as Set of Points},
+  author={Zou, Jialv and Wang, Xinggang and Guo, JiaHao and Liu, Wenyu and Zhang, Qian and Huang, Chang},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023}
+}
+```
